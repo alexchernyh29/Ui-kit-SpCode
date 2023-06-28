@@ -1,15 +1,17 @@
 <template>
-  <div class="item">
-    <i>
-      <slot name="icon"></slot>
-    </i>
-    <div class="details">
-      <h3>
-        <slot name="heading"></slot>
-      </h3>
-      <slot></slot>
+  <RouterLink to="/slider">
+    <div class="item">
+      <i>
+        <slot name="icon"></slot>
+      </i>
+      <div class="details">
+        <h3>
+          <slot name="heading"></slot>
+        </h3>
+        <slot></slot>
+      </div>
     </div>
-  </div>
+  </RouterLink>
 </template>
 
 <style scoped>
@@ -38,6 +40,15 @@ h3 {
   font-weight: 500;
   margin-bottom: 0.4rem;
   color: var(--color-heading);
+}
+
+.link-item {
+  position: relative;
+  transition: 1s;
+}
+
+.link-item:hover {
+  transform: scale(2);
 }
 
 @media (min-width: 1024px) {

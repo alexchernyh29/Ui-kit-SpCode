@@ -17,7 +17,7 @@ a,
 
 @media (hover: hover) {
   a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
+    background-color: rgba(0, 102, 255, 1), rgba(252, 101, 101, 1);
   }
 }
 

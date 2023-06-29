@@ -1,8 +1,11 @@
 <template>
-    <div class="wrap">
-        <RouterLink to="/about">Информация</RouterLink>
-        <RouterLink to="/about">Информация</RouterLink>
-        <RouterLink to="/about">Информация</RouterLink>
+    <div>
+        <h1>Выбери нужный раздел</h1>
+        <div class="wrap__link">
+            <RouterLink to="/about">Горизонтальные слайдеры</RouterLink>
+            <RouterLink to="/about">Вертикальные</RouterLink>
+            <RouterLink to="/about">Двойные</RouterLink>
+        </div>
     </div>
 </template>
 
@@ -11,7 +14,8 @@
 </script>
 
 <style scoped>
-.wrap {
+
+.wrap__link {
     display: flex;
     flex-direction: column;
 }

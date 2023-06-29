@@ -1,37 +1,32 @@
 <template>
-    <div class="font-['Inter']" style="background-color: #fff;">
-      <Html lang="en">
-        <Head>
-          <Meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <Meta charset="utf-8" />
-          <Title>TEST</Title>
-          <Meta name="description" content="TEST" />
-          <Link
-            rel="preload"
-            href="/font/inter/regular.woff2"
-            as="font"
-            type="font/woff2"
-            crossorigin
-          />
-          <Link
-            rel="preload"
-            href="/font/inter/bold.woff2"
-            as="font"
-            type="font/woff2"
-            crossorigin
-          />
-          <Link rel="stylesheet" href="/fonts.css" />
-          <Link rel="icon" :href="'/favicon.ico'" as="image/x-icon" />
-          <!-- <Link rel="prefetch" href="https://db.mit-union.ru" /> -->
-        </Head>
-      </Html>
-      <slot />
-      <NavigationFooter />
-    </div>
-  </template>
-  
-  <script setup>
-  
-  </script>
-  
-  <style scoped></style>
+  <div>
+      <h1>Выбери нужный компонент</h1>
+      <div>
+          <div class="wrap__link">
+              <RouterLink to="/about">Accordion</RouterLink>
+              <RouterLink to="/about">Breadcrumb</RouterLink>
+              <RouterLink to="/about">Button</RouterLink>
+              <RouterLink to="/about">Tabs</RouterLink>
+              <RouterLink to="/about">Dropdown</RouterLink>
+          </div>
+          <div class="wrap__link">
+              <RouterLink to="/about">Switcher</RouterLink>
+              <RouterLink to="/about">Toggle</RouterLink>
+              <RouterLink to="/about">Tooltip</RouterLink>
+              <RouterLink to="/about">Video</RouterLink>
+          </div>
+      </div>
+  </div>
+</template>
+
+<script setup>
+
+</script>
+
+<style scoped>
+
+.wrap__link {
+  display: flex;
+  flex-direction: column;
+}
+</style>

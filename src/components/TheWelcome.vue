@@ -8,41 +8,35 @@ import SupportIcon from './icons/IconSupport.vue'
 </script>
 
 <template>
-  <WelcomeItem>
+  <WelcomeItem path='/component'>
     <template #icon>
       <DocumentationIcon />
     </template>
     <template #heading>Компоненты</template>
     В этом разделе продемонстрированы основные компоненты которые требуются для современной разработки веб-сайтов. 
-    
   </WelcomeItem>
-
-  <WelcomeItem>
+  <WelcomeItem path='/animate'>
     <template #icon>
       <ToolingIcon />
     </template>
     <template #heading>Анимации</template>
     В этом разделе продемонстрированы анимации различных элементов с использованием библиотеки Gsap, Css анимации и анимации Vue.
   </WelcomeItem>
-
-  <WelcomeItem>
-    <template #icon>
-      
+  <WelcomeItem path='/slider'>
+    <template #icon> 
       <SupportIcon />
     </template>
     <template #heading>Слайдеры</template>
     Здесь я показываю какие слайдеры я могу использовать для разработки сайта
   </WelcomeItem>
-
-  <WelcomeItem>
+  <WelcomeItem path='/slider'>
     <template #icon>
       <CommunityIcon />
     </template>
     <template #heading>Графики</template>
     Этот раздел посвящён графикам и дашбордам при помощи библиотеки Graph.js
   </WelcomeItem>
-
-  <WelcomeItem>
+  <WelcomeItem path='/slider'>
     <template #icon>
       <EcosystemIcon />
     </template>

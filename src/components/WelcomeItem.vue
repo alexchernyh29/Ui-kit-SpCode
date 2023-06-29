@@ -1,5 +1,5 @@
 <template>
-  <RouterLink to="/slider">
+  <RouterLink :to="path">
     <div class="item">
       <i>
         <slot name="icon"></slot>
@@ -13,6 +13,15 @@
     </div>
   </RouterLink>
 </template>
+
+<script setup>
+defineProps({
+  path: {
+    type: String,
+    default: '',
+  }
+})
+</script>
 
 <style scoped>
 .item {

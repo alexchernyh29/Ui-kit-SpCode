@@ -5,6 +5,14 @@ import ComponentView from '../views/ComponentView.vue'
 import AnimateView from '../views/AnimateView.vue'
 import TreeView from '../views/TreeView.vue'
 import SliderView from '../views/SliderView.vue'
+import accordionView from '../views/componentView/accordionView.vue'
+import breadcrumbView from '../views/componentView/breadcrumbView.vue'
+import buttonView from '../views/componentView/buttonView.vue'
+import tabsView from '../views/componentView/tabsView.vue'
+import dropdownView from '../views/componentView/dropdownView.vue'
+import switchView from '../views/componentView/switchView.vue'
+import tooltipView from '../views/componentView/tooltipView.vue'
+import badView from '../views/badView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -38,6 +46,46 @@ const router = createRouter({
       path: '/tree',
       name: 'tree',
       component: TreeView
+    },
+    {
+      path: '/component/accordion',
+      name: 'accordion',
+      component: accordionView
+    },
+    {
+      path: '/component/breadcrumb',
+      name: 'breadcrumb',
+      component: breadcrumbView
+    },
+    {
+      path: '/component/button',
+      name: 'button',
+      component: buttonView
+    },
+    {
+      path: '/component/tabs',
+      name: 'tabs',
+      component: tabsView
+    },
+    {
+      path: '/component/dropdown',
+      name: 'dropdown',
+      component: dropdownView
+    },
+    {
+      path: '/component/switch',
+      name: 'switch',
+      component: switchView
+    },
+    {
+      path: '/component/tooltip',
+      name: 'tooltip',
+      component: tooltipView
+    },
+    {
+      path: '/bad',
+      name: 'bad',
+      component: badView
     },
     {
       path: '/about',

@@ -18,7 +18,6 @@
     })
 </script>
 <style scoped>
-@import "./assets/scss/adaptive.scss";
 .faq-answer a {
   cursor: pointer !important;
   color: violet !important;
@@ -28,6 +27,7 @@
     font-weight: 400;
     font-size: 36px;
     line-height: 46px;
+    color: #111827;
 }
 details{
     display: block;
@@ -41,7 +41,7 @@ details{
 .faq-question::marker{display:none;} 
 .faq-question {
     display:block;
-    padding: 24px 72px 24px 24px;
+    padding: 12px 72px 24px 24px;
     font-family: 'Inter';
     font-weight: 500;
     font-size: 36px;
@@ -81,6 +81,14 @@ details[open] .faq-question ~ *{
 		font-size: 16px;
 		line-height: 24px;
 	}
+    .faq-answer {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .faq-question:before {  
+        top: 12px;
+        right: 24px;
+    }
 }
 @media only screen and (max-width: 390px) {
     .faq-question {

@@ -3,17 +3,17 @@
       <h1>Выбери нужный компонент</h1>
       <div>
           <div class="wrap__link">
-              <RouterLink to="/about">Accordion</RouterLink>
-              <RouterLink to="/about">Breadcrumb</RouterLink>
-              <RouterLink to="/about">Button</RouterLink>
-              <RouterLink to="/about">Tabs</RouterLink>
-              <RouterLink to="/about">Dropdown</RouterLink>
+              <RouterLink to="/component/accordion">Accordion</RouterLink>
+              <RouterLink to="/component/breadcrumb">Breadcrumb</RouterLink>
+              <RouterLink to="/component/button">Button</RouterLink>
+              <RouterLink to="/component/tabs">Tabs</RouterLink>
+              <RouterLink to="/component/dropdown">Dropdown</RouterLink>
           </div>
           <div class="wrap__link">
-              <RouterLink to="/about">Switcher</RouterLink>
-              <RouterLink to="/about">Toggle</RouterLink>
-              <RouterLink to="/about">Tooltip</RouterLink>
-              <RouterLink to="/about">Video</RouterLink>
+              <RouterLink to="/component/switch">Switcher</RouterLink>
+              <RouterLink to="/bad">Toggle</RouterLink>
+              <RouterLink to="/component/tooltip">Tooltip</RouterLink>
+              <RouterLink to="/bad">Video</RouterLink>
           </div>
       </div>
   </div>

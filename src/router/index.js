@@ -14,7 +14,18 @@ import switchView from '../views/componentView/switchView.vue'
 import tooltipView from '../views/componentView/tooltipView.vue'
 import badView from '../views/badView.vue'
 import animateGsapView from '../views/animateGsapView/animateGsapView.vue'
-import bounseOutView from '../views/animateGsapView/bounseOut.vue'
+import bounseOutView from '../views/animateGsapView/bounseOutView.vue'
+import bounseUpView from '../views/animateGsapView/bounseUpView.vue'
+import animateCssView from '../views/animateCssView/animateCssView.vue'
+import animateBackgroundView from '../views/animateCssView/animateBackgroundView.vue'
+import animateImageView from '../views/animateCssView/animateImageView.vue'
+import animateImageColorView from '../views/animateCssView/animateImageColorView.vue'
+import animateTextView from '../views/animateCssView/animateTextView.vue'
+import animateVueView from '../views/animateVueView/animateVueView.vue'
+import textFadeView from '../views/animateVueView/textFadeView.vue'
+import textBounceView from '../views/animateVueView/textBounceView.vue'
+import textTransitionsView from '../views/animateVueView/textTransitionsView.vue'
+import textListView from '../views/animateVueView/textListView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -95,9 +106,69 @@ const router = createRouter({
       component: animateGsapView
     },
     {
-      path: '/animate/animateGsapView/bounseOut',
-      name: 'bounseOut',
+      path: '/animate/animateGsapView/bounseOutView',
+      name: 'bounseOutView',
       component: bounseOutView
+    },
+    {
+      path: '/animate/animateGsapView/bounseUpView',
+      name: 'bounseUpView',
+      component: bounseUpView
+    },
+    {
+      path: '/animate/animateCssView',
+      name: 'animateCss',
+      component: animateCssView
+    },
+    {
+      path: '/animate/animateCssView',
+      name: 'animateCss',
+      component: animateCssView
+    },
+    {
+      path: '/animate/animateCssView/animateBackgroundView',
+      name: 'animateBackgroundView',
+      component: animateBackgroundView
+    },
+    {
+      path: '/animate/animateCssView/animateImageView',
+      name: 'animateImageView',
+      component: animateImageView
+    },
+    {
+      path: '/animate/animateCssView/animateImageColorView',
+      name: 'animateImageColorView',
+      component: animateImageColorView
+    },
+    {
+      path: '/animate/animateCssView/animateTextView',
+      name: 'animateTextView',
+      component: animateTextView
+    },
+    {
+      path: '/animate/animateVueView',
+      name: 'animateVueView',
+      component: animateVueView
+    },
+    {
+      path: '/animate/animateVueView/textFadeView',
+      name: 'textFadeView',
+      component: textFadeView
+    },
+    {
+      path: '/animate/animateVueView/textBounceView',
+      name: 'textBounceView',
+      component: textBounceView
+    },
+    {
+      path: '/animate/animateVueView/textTransitionsView',
+      name: 'textTransitionsView',
+      component: textTransitionsView
+    },
+    {
+      path: '/animate/animateVueView/textListView',
+      name: 'textListView',
+      component: textListView
     },
     {
       path: '/about',

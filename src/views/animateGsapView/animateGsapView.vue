@@ -2,9 +2,8 @@
     <div>
         <h1>Выбери нужный раздел</h1>
         <div class="wrap__link">
-          <RouterLink to="/animate/animateGsapView/bounseOut">Bounse out</RouterLink>
-          <RouterLink to="/about">GSAP</RouterLink>
-          <RouterLink to="/about">VUE</RouterLink>
+          <RouterLink to="/animate/animateGsapView/bounseOutView">Bounse out</RouterLink>
+          <RouterLink to="/animate/animateGsapView/bounseUpView">Bounse up</RouterLink>
         </div>
     </div>
   </template>

@@ -1,11 +1,9 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
-import BgMain from './components/bgMain.vue';
 </script>
 
 <template>
-  <!-- <BgMain> -->
   <header>
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
     <div class="wrapper">
@@ -14,12 +12,15 @@ import BgMain from './components/bgMain.vue';
         <RouterLink to="/">Меню</RouterLink>
         <RouterLink to="/component">Компоненты</RouterLink>
         <RouterLink to="/animate">Анимации</RouterLink>
-        <RouterLink to="/about">Информация</RouterLink>
       </nav>
+      <!-- <nav>
+        <RouterLink to="/">JS</RouterLink>
+        <RouterLink to="/component">Графики</RouterLink>
+        <RouterLink to="/animate">3D сцены</RouterLink>
+      </nav> -->
     </div>
   </header>
   <RouterView />
-<!-- </BgMain> -->
 </template>
 
 <style scoped>

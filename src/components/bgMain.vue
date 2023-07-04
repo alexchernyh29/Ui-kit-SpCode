@@ -32,9 +32,9 @@
 }
 
 .test {
-    height: 100vh;
+    height: 50vh;
     overflow: hidden;
-    width: 100vw;
+    width: 50vw;
 }
 
 .background_background__3Oeal {

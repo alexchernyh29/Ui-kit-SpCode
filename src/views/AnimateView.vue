@@ -2,9 +2,9 @@
   <div>
       <h1>Выбери нужный раздел</h1>
       <div class="wrap__link">
-        <RouterLink to="/about">CSS Animate</RouterLink>
+        <RouterLink to="/animate/animateCssView">CSS Animate</RouterLink>
         <RouterLink to="/animate/animateGsapView">GSAP</RouterLink>
-        <RouterLink to="/about">VUE</RouterLink>
+        <RouterLink to="/animate/animateVueView">VUE</RouterLink>
       </div>
   </div>
 </template>

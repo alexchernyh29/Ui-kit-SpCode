@@ -6,13 +6,13 @@
             @enter="enter"
             @after-enter="afterEnter"
         >
-            <LogoIcon/>
+            <h1>Привет</h1>
         </Transition>
     </div>
 </template>
 
 <script>
-import LogoIcon from '../components/icons/IconLogo.vue';
+// import LogoIcon from '../components/icons/IconLogo.vue';
 import gsap from 'gsap';
 export default {
   setup() {

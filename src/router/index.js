@@ -14,6 +14,7 @@ import switchView from '../views/componentView/switchView.vue'
 import tooltipView from '../views/componentView/tooltipView.vue'
 import badView from '../views/badView.vue'
 import animateGsapView from '../views/animateGsapView/animateGsapView.vue'
+import bounseOutView from '../views/animateGsapView/bounseOut.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -92,6 +93,11 @@ const router = createRouter({
       path: '/animate/animateGsapView',
       name: 'animateGsap',
       component: animateGsapView
+    },
+    {
+      path: '/animate/animateGsapView/bounseOut',
+      name: 'bounseOut',
+      component: bounseOutView
     },
     {
       path: '/about',

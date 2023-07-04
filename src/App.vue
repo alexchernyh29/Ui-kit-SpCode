@@ -13,6 +13,7 @@ import BgMain from './components/bgMain.vue';
       <nav>
         <RouterLink to="/">Меню</RouterLink>
         <RouterLink to="/component">Компоненты</RouterLink>
+        <RouterLink to="/animate">Анимации</RouterLink>
         <RouterLink to="/about">Информация</RouterLink>
       </nav>
     </div>

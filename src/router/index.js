@@ -26,6 +26,7 @@ import textFadeView from '../views/animateVueView/textFadeView.vue'
 import textBounceView from '../views/animateVueView/textBounceView.vue'
 import textTransitionsView from '../views/animateVueView/textTransitionsView.vue'
 import textListView from '../views/animateVueView/textListView.vue'
+import sliderHorizontalView from '../views/sliderHorizontalView/sliderHorizontalView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -169,6 +170,11 @@ const router = createRouter({
       path: '/animate/animateVueView/textListView',
       name: 'textListView',
       component: textListView
+    },
+    {
+      path: '/animate/sliderHorizontalView/sliderHorizontalView',
+      name: 'sliderHorizontalView',
+      component: sliderHorizontalView
     },
     {
       path: '/about',

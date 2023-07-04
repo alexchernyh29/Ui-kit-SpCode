@@ -13,6 +13,7 @@ import dropdownView from '../views/componentView/dropdownView.vue'
 import switchView from '../views/componentView/switchView.vue'
 import tooltipView from '../views/componentView/tooltipView.vue'
 import badView from '../views/badView.vue'
+import animateGsapView from '../views/animateGsapView/animateGsapView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -86,6 +87,11 @@ const router = createRouter({
       path: '/bad',
       name: 'bad',
       component: badView
+    },
+    {
+      path: '/animate/animateGsapView',
+      name: 'animateGsap',
+      component: animateGsapView
     },
     {
       path: '/about',

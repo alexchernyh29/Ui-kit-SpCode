@@ -3,7 +3,7 @@
       <h1>Выбери нужный раздел</h1>
       <div class="wrap__link">
         <RouterLink to="/about">CSS Animate</RouterLink>
-        <RouterLink to="/about">GSAP</RouterLink>
+        <RouterLink to="/animate/animateGsapView">GSAP</RouterLink>
         <RouterLink to="/about">VUE</RouterLink>
       </div>
   </div>

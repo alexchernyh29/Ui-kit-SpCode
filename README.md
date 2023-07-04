@@ -1,7 +1,5 @@
 # Тестовый проект
 
-This template should help get you started developing with Vue 3 in Vite.
-
 Структура проекта в Miro
 https://miro.com/welcomeonboard/elp3QUJFZjJPQTNUa1BUS01kaWZLQkp2cURCYzR2V0FTUThSWGtRd3dqdWI4MFNJVjJ3ckNubjkydTJWa3lBTHwzNDU4NzY0NTE0Mzg1NTk3Njk2fDI=?share_link_id=265391537696
 

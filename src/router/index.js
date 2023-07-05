@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import GraphView from '../views/GraphView.vue'
+import ChartView from '../views/ChartView.vue'
 import ComponentView from '../views/ComponentView.vue'
 import AnimateView from '../views/AnimateView.vue'
 import TreeView from '../views/TreeView.vue'
@@ -27,6 +27,7 @@ import textBounceView from '../views/animateVueView/textBounceView.vue'
 import textTransitionsView from '../views/animateVueView/textTransitionsView.vue'
 import textListView from '../views/animateVueView/textListView.vue'
 import sliderHorizontalView from '../views/sliderHorizontalView/sliderHorizontalView.vue'
+import sliderVerticalView from '../views/sliderVerticalView/sliderVerticalView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -42,9 +43,9 @@ const router = createRouter({
       component: SliderView
     },
     {
-      path: '/graph',
-      name: 'graph',
-      component: GraphView
+      path: '/Chart',
+      name: 'Chart',
+      component: ChartView
     },
     {
       path: '/component',
@@ -172,9 +173,14 @@ const router = createRouter({
       component: textListView
     },
     {
-      path: '/animate/sliderHorizontalView/sliderHorizontalView',
+      path: '/slider/sliderHorizontalView/sliderHorizontalView',
       name: 'sliderHorizontalView',
       component: sliderHorizontalView
+    },
+    {
+      path: '/slider/sliderVerticalView/sliderVerticalView',
+      name: 'sliderVerticalView',
+      component: sliderVerticalView
     },
     {
       path: '/about',

@@ -2,9 +2,10 @@
     <div>
         <h1>Выбери нужный раздел</h1>
         <div class="wrap__link">
-            <RouterLink to="/animate/sliderHorizontalView/sliderHorizontalView">Горизонтальные слайдеры</RouterLink>
-            <RouterLink to="/about">Вертикальные</RouterLink>
-            <RouterLink to="/about">Двойные</RouterLink>
+            <RouterLink to="/slider/sliderHorizontalView/sliderHorizontalView">Default slider</RouterLink>
+            <RouterLink to="/slider/sliderVerticalView/sliderVerticalView">Анимированный слайдер</RouterLink>
+            <RouterLink to="/bad">Вертикальный слайдер</RouterLink>
+            <RouterLink to="/bad">Двойной слайдер</RouterLink>
         </div>
     </div>
 </template>

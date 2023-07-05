@@ -1,20 +1,24 @@
 <template>
-    <div class="slider">
-        <button @click="prevSlider()" class="slider__button">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5"/>
-            </svg>
-        </button>
-        <div v-show="sliderActive == index" v-for="(corgi, index) in slider" :key="index">
-            <img :src="corgi.path" alt="corgi" class="slider__item-img">
+    <div>
+        <h1>Default slider</h1>
+        <h4>С бесконечной прокруткой</h4>
+        <div class="slider">
+            <button @click="prevSlider()" class="slider__button">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                    class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5"/>
+                </svg>
+            </button>
+            <div v-show="sliderActive == index" v-for="(corgi, index) in slider" :key="index">
+                <img :src="corgi.path" alt="corgi" class="slider__item-img">
+            </div>
+            <button @click="nextSlider()" class="slider__button">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                    class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"/>
+                </svg>
+            </button>
         </div>
-        <button @click="nextSlider()" class="slider__button">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"/>
-            </svg>
-        </button>
     </div>
 </template>
 
@@ -80,6 +84,7 @@ function nextSlider () {
 <style scoped>
 
 .slider {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;

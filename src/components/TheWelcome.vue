@@ -29,18 +29,18 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #heading>Слайдеры</template>
     Здесь я показываю какие слайдеры я могу использовать для разработки сайта
   </WelcomeItem>
-  <WelcomeItem path='/slider'>
+  <WelcomeItem path='/Chart'>
     <template #icon>
       <CommunityIcon />
     </template>
     <template #heading>Графики</template>
-    Этот раздел посвящён графикам и дашбордам при помощи библиотеки Graph.js
+    Этот раздел посвящён графикам и дашбордам при помощи библиотеки Chart.js
   </WelcomeItem>
-  <WelcomeItem path='/slider'>
+  <WelcomeItem path='/bad'>
     <template #icon>
       <EcosystemIcon />
     </template>
-    <template #heading>3D сцены</template>
-    Этот раздел посвящён 3d объектам, реализованным через Tree JS
+    <template #heading>JS and Vue</template>
+    Этот раздел посвящён JS and Vue
   </WelcomeItem>
 </template>
